@@ -1,9 +1,15 @@
 import './App.css';
+import Navigation from './components/navigation'
+import Background from './components/background'
+import Listing from './components/listing'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navigation />
+      <Background />
+      <Listing />
     </div>
   );
 }
